@@ -31,7 +31,7 @@ const Container4 = () => {
                         expanded={index === 0}
                         onChange={() => setIndex(index === 0 ? null : 0)}
                     >
-                        <AccordionSummary sx={{ fontSize: '1.5rem' }} >STUDIO - Apartment</AccordionSummary>
+                        <AccordionSummary sx={{ fontSize: '1.5rem' , lineHeight: '2' }} >STUDIO - Apartment</AccordionSummary>
                         <AccordionDetails sx={{ fontSize: '1.2rem' }}>
                             <ul>
                                 <li>Compact and efficient layouts, ideal for singles or professionals</li>

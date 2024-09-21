@@ -74,9 +74,10 @@
 
 .container1 {
   display: flex;
+  font-size: 20px;
   justify-content: space-around;
-  font-size: 22px;
-  margin: 2rem 0rem
+  line-height: 1.5;
+  margin: 2rem 0;
 }
 
 .container1-left {
@@ -88,7 +89,7 @@
   padding: 2rem;
   height: max-content;
   border-radius: 22px;
-  width: 30%;
+  width: 22%;
 }
 
 .header {
@@ -130,7 +131,7 @@
 }
 
 .right div {
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: #fb7702;
   font-weight: 700;
 }
