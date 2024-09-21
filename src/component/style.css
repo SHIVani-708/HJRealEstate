@@ -101,7 +101,7 @@
 }
 
 .head {
-  font-size: 60px;
+  font-size: 45px;
   font-weight: 700;
   color: #232378;
   display: flex;
@@ -319,7 +319,7 @@ section {
 
 
 /* Media Queries */
-
+/* 
 @media (max-width: 600px) {
 
   .footer-distributed .footer-left,
@@ -335,6 +335,17 @@ section {
   .footer-distributed .footer-left p.footer-links {
     line-height: 1.8;
   }
+} */
+.container1, .container3-content {
+  /* Ensure containers have some constraints to prevent reflow issues */
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.map img {
+  max-width: 100%;
+  height: auto;
 }
 
 .icons {
